@@ -1,7 +1,7 @@
 require 'animals'
 
 describe Chimpanzee do
-  describe '#initialise' do
+  describe '.initialize' do
     it "sets the number of legs to 2" do
       chimp = Chimpanzee.new
       expect(chimp.num_legs).to eq(2)
